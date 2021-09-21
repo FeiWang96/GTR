@@ -1,0 +1,19 @@
+{
+  "data_dir": "data/wikitables/",
+  "fasttext": "wiki.en.bin",
+  "bert_dir": "bert-base-uncased",
+  "merge_same_cells": true,
+  "do_lower_case": true,
+  "bert_size": 768,
+  "gnn_size": 300,
+  "epoch": 5,
+  "batch_size": 16,
+  "warmup_steps": 100,
+  "total_steps": 1000,
+  "key_metric": "ndcg_cut_20",
+  "bert_lr": 5e-5,
+  "gnn_lr": 1e-4,
+  "relevance_score_scale": 2,
+  "use_pretrained_model": false,
+  "pretrained_model_path": ""
+}

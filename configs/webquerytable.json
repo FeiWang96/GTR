@@ -1,0 +1,18 @@
+{
+  "data_dir": "data/webquerytable/",
+  "fasttext": "wiki.en.bin",
+  "bert_dir": "bert-base-uncased",
+  "merge_same_cells": true,
+  "do_lower_case": true,
+  "bert_size": 768,
+  "gnn_size": 300,
+  "epoch": 5,
+  "batch_size": 4,
+  "warmup_steps": 1000,
+  "total_steps": 20000,
+  "key_metric": "ndcg_cut_20",
+  "bert_lr": 5e-5,
+  "gnn_lr": 1e-4,
+  "use_pretrained_model": false,
+  "pretrained_model_path": ""
+}
