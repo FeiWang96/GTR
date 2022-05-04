@@ -2,7 +2,7 @@
   "data_dir": "data/wikitables/",
   "fasttext": "wiki.en.bin",
   "bert_dir": "bert-base-uncased",
-  "merge_same_cells": true,
+  "merge_same_cells": false,
   "do_lower_case": true,
   "bert_size": 768,
   "gnn_size": 300,
